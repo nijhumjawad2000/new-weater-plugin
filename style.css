@@ -1,0 +1,116 @@
+.container {
+    text-align: center;
+    background-color: #6a047c;
+    height: 560px;
+    margin-top: 20px;
+}
+
+.weather-plugin {
+    font-size: 18px;
+    height: 440px;
+}
+
+#wpcontent, #wpfooter {
+    margin-right: 20px;
+}
+
+.text {
+    color: white;
+    margin-top: 20px;
+    padding: 70px;
+}
+
+.h1 {
+    color: white;
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    min-width: 255px;
+    border: 1px solid #fff0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff0;
+}
+
+.main .content {
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.weatherIcon {
+    background-color: #610b28;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.stuffbox>h3, #form h2, #form h3 {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.weatherData {
+    background-color: #6a047c;
+    height: 11%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 70%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.head {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    font-size: 2.3em;
+    line-height: 1.5em;
+    position: absolute;
+    background-color: #474747;
+}
+
+.wp-core-ui .button-primary {
+    background: #6a047c;
+    border-color: #6a047c #6a047c #6a047c;
+    box-shadow: 0 1px 0 #6a047c;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #6a047c, 1px 0 1px #6a047c, 0 1px 1px #6a047c, -1px 0 1px #6a047c;
+}
+
+.wp-core-ui .button-primary:hover {
+    background: #610b28;
+    border-color: #610b28 #610b28 #610b28;
+    box-shadow: 0 1px 0 #610b28;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #610b28, 1px 0 1px #610b28, 0 1px 1px #610b28, -1px 0 1px #610b28;
+}
+
+.info {
+    color: #fff;
+    line-height: 1.8;
+}
+
+.postbox {
+    margin-right: 30%;
+}
+
+#form {
+    margin-left: 22%;
+    min-width: 763px;
+    font-size: 18px;
+    padding: 8px 12px;
+    line-height: 1.4;
+}
+
+img {
+    width: 250px;
+}
